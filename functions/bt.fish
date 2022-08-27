@@ -1,7 +1,8 @@
 function bt --argument cmd
 
     if test -z $cmd
-        set cmd (history -R | fzf --header="Choose a command to save" --no-sort)
+    	builtin history merge
+        set cmd (builtin history | fzf --header="Choose a command to save" --no-sort)
     end
     if test -z $cmd
         echo Aborted
