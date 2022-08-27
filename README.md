@@ -15,5 +15,11 @@ Original script for bash/zsh is here: https://git.sr.ht/~ane/btdt/tree
 Copy files from `/functions` dir to `~/.config/fish/functions`
 
 ## Usage
+
 `bt` prompts for a command in your history and asks to save it with another name
+
 `dt` then recalls a command from this named history
+
+## Prerequisites
+
+https://github.com/junegunn/fzf
