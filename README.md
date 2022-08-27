@@ -19,3 +19,7 @@ Copy files from `/functions` dir to `~/.config/fish/functions`
 `bt` prompts for a command in your history and asks to save it with another name
 
 `dt` then recalls a command from this named history
+
+## Prerequisites
+
+https://github.com/junegunn/fzf
